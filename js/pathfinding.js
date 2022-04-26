@@ -13,11 +13,11 @@ class Canvas{
 		this.canvas = document.getElementById(id);
 		this.ctx = canvas.getContext(context);
 	}
-	
+
 	getHeight() {
 		return this.canvas.height;
 	}
-	
+
 	getWidth() {
 		return this.canvas.width;
 	}
